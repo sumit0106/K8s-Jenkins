@@ -15,7 +15,7 @@ resource "aws_eks_cluster" "Ekart-Cluster" {
 
   depends_on = [ 
     aws_iam_role_policy_attachment.example-AmazonEKSClusterPolicy,
-    awsaws_iam_role_policy_attachment.example-AmazonEKSVPCResourceController,
+    aws_iam_role_policy_attachment.example-AmazonEKSVPCResourceController,
   ]
 
 }
